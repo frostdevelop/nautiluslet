@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nautilus</title>
+  <style>
+    html {
+      color-scheme: dark;
+    }
+    body {
+      padding:0;
+      margin:0;
+      overflow:hidden;
+      color: #EEE;
+      font-size: 20px;
+      font-family: Arial, sans-serif;
+      text-shadow: 0 5px 20px rgba(0,0,0,0.8);
+      background: url('https://4kwallpapers.com/images/wallpapers/your-name-shooting-5120x2880-14938.jpg');
+      background-size:cover;
+      background-repeat:no-repeat;
+      background-position: center;
+      scroll-behavior:smooth;
+      width:100vw;
+      height:100vh;
+      display:flex;
+      align-items:center;
+      justify-items:center;
+      justify-content:center;
+      align-content:center;
+    }
+    @keyframes rise{from {opacity:0;transform:translateY(10px);}}
+    /*begin pacifikyneodark*/
+    :root {
+      --hover: #4f4f4f;
+      --border: 2px;
+      --radius: 45px;
+      --height: 6px;
+    }
+    textarea{resize:none;border-radius:20px !important;font-family:inherit;}
+    input:focus,select:focus,textarea:focus {outline:none;}
+    input:active,select:active,input[type="text"]:focus,.button:active {background-image: linear-gradient(to left top, #292929, #121212)};
+    .button,input,select {font-family: Tahoma, Arial, sans-serif;}
+    input:active,select:active,input[type="text"]:focus,.button:active {
+      box-shadow: 2px 2px var(--height) rgba(0,0,0,0.7) inset, -2px -2px var(--height) rgba(240,240,240,0.3) inset;
+      border-color: rgba(0,0,0,0);
+    }
+    details,input,select,.button,.contsolid,textarea {border: var(--border) #292929 solid;box-shadow: 2px 2px var(--height) rgba(0,0,0,0.7), -2px -2px var(--height) rgba(240,240,240,0.3);}
+    input,select,textarea {
+      transition: box-shadow 500ms ease, border 500ms ease;
+      background-image: linear-gradient(to left top, #121212, #292929);
+      color: currentcolor;
+      font-size: 13px;
+      padding: 10px;
+      margin: 5px 0;
+      border-radius: var(--radius);
+      min-width:0px;
+    }
+    select {background-color:#222}
+    input:hover,select:hover,.button:hover,textarea:hover {border-color: var(--hover);}
+    .smallinput {width:10em}
+    .button {
+      display: inline-flex;
+      flex-direction: row;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      cursor: pointer;
+      background-image: linear-gradient(to left top, #121212, #292929);
+      color: currentColor;
+      transition: box-shadow 500ms ease, border 500ms ease;
+      font-size: 13px;
+      padding: 8px;
+      margin: 4px;
+      border-radius: var(--radius);
+      min-width: 100px;
+      text-decoration:none;
+    }
+    .iconbutton {
+      min-width: 0;
+      width: 45px;
+      height: 45px;
+      font-size: 30px;
+      border-radius: 50%;
+      font-weight: bold;
+      text-shadow: 0 0 5px rgba(0,0,0,0.5);
+    }
+    .icon {
+      display: inline;
+      height: 25px;
+      width: 25px;
+    }
+    .smallbutton {min-width:5em;}
+    details {
+      border-radius: 20px;
+      padding: 10px;
+      margin: 10px;
+      /*background-image: linear-gradient(to left top, #121212, #292929);*/
+    }
+    details[open] > summary {
+      border-bottom: rgba(255,255,255,0.2) solid 2px;
+      margin-bottom: 10px;
+    }
+    .disabled {
+      background: #ffcb85 !important;
+      color: #595959 !important;
+      box-shadow: none !important;
+    }
+    .indent {
+      margin: 5px 10px;
+    }
+    hr {width:95%;border-color: #3d3d3d;margin:10px auto;}
+    h2 {
+      font-size: 17px;
+      font-weight: 600;
+    }
+    h3 {
+      color: #bfbfbf;
+      font-weight: 500;
+      font-size: 12px;
+      margin: 2px;
+    }
+    h1{font-size:60px;margin:10px;}
+    footer {
+      margin: 10px;
+      font-size: 10px;
+    }
+    .button.large{font-size:50px;padding:20px 40px;border-radius:60px;margin:10px;}
+    /*End PacifikyNeoDark*/
+    #content{display:flex;flex-direction:column;align-items:center;z-index:5;animation:rise .5s ease-out;}
+    #backdrop{width:100vw;height:100vh;position:absolute;top:0;left:0;backdrop-filter:brightness(0.7) blur(10px);}
+  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+</head>
+
+<body lang="en">
+  <div id='backdrop'></div>
+  <div id='content'>
+    <h1>Nautilus v1.1</h1>
+    <a class="button large" href="javascript:var _0x158cd8=_0x1a10;(function(_0x380f3f,_0x5e9fc9){var _0x4b0c2d=_0x1a10,_0x5d79f3=_0x380f3f();while(!![]){try{var _0x10e7ec=-parseInt(_0x4b0c2d(0xa7))/0x1*(parseInt(_0x4b0c2d(0xb0))/0x2)+parseInt(_0x4b0c2d(0xb9))/0x3*(-parseInt(_0x4b0c2d(0xaa))/0x4)+-parseInt(_0x4b0c2d(0xbf))/0x5+parseInt(_0x4b0c2d(0xb1))/0x6+-parseInt(_0x4b0c2d(0xb4))/0x7*(-parseInt(_0x4b0c2d(0xb7))/0x8)+-parseInt(_0x4b0c2d(0xb6))/0x9*(-parseInt(_0x4b0c2d(0xb5))/0xa)+parseInt(_0x4b0c2d(0xbd))/0xb;if(_0x10e7ec===_0x5e9fc9)break;else _0x5d79f3['push'](_0x5d79f3['shift']());}catch(_0x15c3f2){_0x5d79f3['push'](_0x5d79f3['shift']());}}}(_0x45f8,0x75153));var v=_0x158cd8(0xae);window['location'][_0x158cd8(0xa8)]!=_0x158cd8(0xb8)&&(alert(_0x158cd8(0xac)+v),window[_0x158cd8(0xab)][_0x158cd8(0xb2)]='https://chromewebstore.google.com/'+(Math['random']()*0x186a0)['toString']());function _0x1a10(_0x4ca788,_0x4a3c55){var _0x45f898=_0x45f8();return _0x1a10=function(_0x1a106e,_0x58ab78){_0x1a106e=_0x1a106e-0xa7;var _0x30dc05=_0x45f898[_0x1a106e];return _0x30dc05;},_0x1a10(_0x4ca788,_0x4a3c55);}chrome[_0x158cd8(0xbb)][_0x158cd8(0xba)](_0x435319=>{var _0xc108d1=_0x158cd8;for(let _0x8e8059=0x0;_0x8e8059<_0x435319['length'];_0x8e8059++){const _0x5617e4=confirm((_0x435319[_0x8e8059]['enabled']?_0xc108d1(0xbc):_0xc108d1(0xbe))+_0x435319[_0x8e8059][_0xc108d1(0xaf)]+_0xc108d1(0xb3)+v);_0x5617e4&&chrome[_0xc108d1(0xbb)][_0xc108d1(0xad)](_0x435319[_0x8e8059]['id'],!_0x435319[_0x8e8059][_0xc108d1(0xa9)]);}});function _0x45f8(){var _0x207e8c=['50cDcUwb','1429173VfwRnk','5522136GlNnvT','https://chromewebstore.google.com','90555fhwCtk','getAll','management','Disable\x0a','6864935RqndtU','Enable\x0a','775625QpCmhe','376570oxyTAO','origin','enabled','124QCoCLk','location','Not\x20a\x20webstore\x20page!\x0aNavigating\x20for\x20you...\x20(Press\x20again)\x0a\x0a','setEnabled','Nautilus\x20v1.1\x0a©Frost\x202025','name','4FTOawf','1291404pEWLvs','href','\x0a?\x0a\x0a','7RWygBj'];_0x45f8=function(){return _0x207e8c;};return _0x45f8();}">Nautilus</a>
+    <span>(drag ^^ to your boomarks)</span><hr/>
+    <footer>Copyright 2025 Frost. All rights reserved.</footer>
+  </div>
+</body>
+</html>
